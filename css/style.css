@@ -12,3 +12,37 @@
     font-weight: bolder;
     font-style: oblique;
 }
+.player-title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.info-text{
+  text-align: center;
+  font-weight: inherit;
+  color: rgba(39, 38, 38, 0.76);
+}
+.rounded-img{
+  border-radius: 20px;
+}
+.player{
+   margin: 20px auto;
+   padding: 40px 10px;
+   background-color: rgb(243, 240, 240);
+   border: 3px solid rgb(243, 240, 240);
+   border-radius: 10px;
+}
+.loader {
+  border: 16px solid #e6e0e0; 
+  border-top: 16px solid #060480; 
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

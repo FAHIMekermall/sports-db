@@ -17,8 +17,6 @@
         <h2 class="greeting-text">Welcome to sports DB.</h2>
     </header>
     <main>
-
-
         <section class="container mt-5">
             <div class="input-group mb-3">
                 <input id="inputField" type="text" class="form-control" placeholder="Enter player name"
@@ -27,9 +25,18 @@
                     Button
                 </button>
             </div>
+            <div class="d-flex justify-content-center">
+                <div id="spinner" class="loader  d-none"></div>
+            </div>
             <div class="row">
-                <div id="resultSide" class="col-6 d-flex justify-content-center"></div>
-                <div id="infoSide" class="col-6 d-flex justify-content-center"></div>
+                <div class="col-6 ">
+                    <div id="resultSide" class="d-flex flex-column align-items-center"></div>
+                </div>
+                <div class="col-6">
+                    <div id="infoSide" class="d-flex flex-column align-items-center">
+                        <img src="" alt="">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
