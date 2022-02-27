@@ -26,10 +26,6 @@
 .rounded-img {
     border-radius: 20px;
 }
-#infoSide {
-    height: 100vh - 10px;
-    border-left: 2px solid black;
-}
 .player {
     margin: 20px auto;
     padding: 40px 10px;
@@ -45,7 +41,10 @@
     height: 120px;
     animation: spin 0.5s linear infinite;
 }
-
+#infoSide{
+    position: sticky;
+    top: 10px;
+}
 @keyframes spin {
     0% {
         transform: rotate(0deg);
