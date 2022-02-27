@@ -1,48 +1,56 @@
 /* google font import  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
 }
-.greeting-text{
+.greeting-text {
     font-family: cursive;
     text-align: center;
     font-weight: bolder;
     font-style: oblique;
 }
-.player-title{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.player-title {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-weight: bolder;
     font-style: oblique;
 }
-.info-text{
-  text-align: center;
-  font-weight: inherit;
-  color: rgba(39, 38, 38, 0.76);
+.info-text {
+    text-align: center;
+    font-weight: inherit;
+    color: rgba(39, 38, 38, 0.76);
 }
-.rounded-img{
-  border-radius: 20px;
+.rounded-img {
+    border-radius: 20px;
 }
-.player{
-   margin: 20px auto;
-   padding: 40px 10px;
-   background-color: rgb(243, 240, 240);
-   border: 3px solid rgb(243, 240, 240);
-   border-radius: 10px;
+#infoSide {
+    height: 100vh - 10px;
+    border-left: 2px solid black;
+}
+.player {
+    margin: 20px auto;
+    padding: 40px 10px;
+    background-color: rgb(243, 240, 240);
+    border: 3px solid rgb(243, 240, 240);
+    border-radius: 10px;
 }
 .loader {
-  border: 16px solid #e6e0e0; 
-  border-top: 16px solid #060480; 
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 0.5s linear infinite;
+    border: 16px solid #e6e0e0;
+    border-top: 16px solid #060480;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 0.5s linear infinite;
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
